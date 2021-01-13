@@ -1,0 +1,7 @@
+export const phoneNumber = '+55 (84) 99612-2402'
+export const wpLink = 'https://wa.me/5584996122402'
+export const gitLink = 'https://github.com/vinic-i'
+export const instaLink = 'https://www.instagram.com/vinic.i/?hl=pt-br'
+export const locationLink = ''
+export const email = 'vinicius.snts08@gmail.com'
+export const address = ''
