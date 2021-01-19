@@ -2,15 +2,105 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
-.gradient {
-  background-image: url("Hero.png");
-  filter: blur(2px);
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.hero-image{
   position: relative;
+  background-image: url("Hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+ 
 }
+.hero-image .container{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+}
+.hero-image .container h1{
+  font-size: 3.5rem;
+  letter-spacing: 0.2em;
+}
+.over{
+  border: 5px solid white;
+  padding: 18px;
+  display: inline-block;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+}
+.over img{
+  width: 100%;
+}
+.over-grid{
+  display: grid;
+    align-content: center;
+}
+.des{
+  margin: 20px;
+  display: block;
+  font-size: 15px;
+  text-shadow: 0 0 10px black;
+}
+.hero-button{
+  margin-top: 50px;
+  text-decoration: none;
+  -webkit-border-radius: 0;
+   -moz-border-radius: 0;
+   border-radius: 0;
+   color: #FFFFFF;
+   font-family: Brush Script MT;
+   font-size: 15px;
+   font-weight: 300;
+   padding: 15px;
+   background-color: #ABABAB;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 0 1px 20px #000000;
+   border: solid #000204 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+
+}
+
+.hero-button:hover {
+  color: white;
+  background: #646464;
+  border: solid #000000 1px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  text-decoration: none;
+}
+
+.nav-vini{
+  background: black;
+  height: 40px;
+}
+
+
+/* filter: blur(8px);
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative; */
+
+
+
+
+
+
+
+
+
+
 .gradient-footer {
   background-image: url("footer.png");
 

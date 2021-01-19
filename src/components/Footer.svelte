@@ -75,5 +75,5 @@
     </div>
 </section>
 <footer class="footer dark-green-bg big text-center text-white-50">
-    <div class="container">Copyright © VinicPotifólio 2021</div>
+    <div class="container">Copyright © VinicPortfólio 2021</div>
 </footer>

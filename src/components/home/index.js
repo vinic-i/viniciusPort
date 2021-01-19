@@ -9,6 +9,8 @@ import SelectService from './SelectService.svelte'
 import OurProjects from './OurProjects.svelte'
 import LogoShowCase from './LogoShowCase.svelte'
 import Section from './Section.svelte'
+import SectionLeft from './SectionLeft.svelte'
+
 
 
 
@@ -24,4 +26,5 @@ export {
     OurProjects,
     LogoShowCase,
     Section,
+    SectionLeft
 }

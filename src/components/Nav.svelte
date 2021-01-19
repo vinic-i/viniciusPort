@@ -1,60 +1,63 @@
 <script>
-
+	let y = 0;
+	let open = false;
 </script>
 
-<style>
-	.logo-font {
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-		color: white;
-	}
-</style>
+<svelte:window bind:scrollY={y} />
 
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bgNav-dark">
+	<a class="navbar-brand" on:click={() => (open = false)} href="#page-top">
+		Vinicius
+	</a>
 
+	<button
+		class=" navbar-toggler navbar-toggler-center"
+		type="button"
+		on:click={() => (open = !open)}
+		aria-expanded={open}>
+		<i class="fas fa-bars" />
+	</button>
+	<div
+		class=" collapse navbar-collapse {open ? 'show' : ''}"
+		id="navbarResponsive"
+	>
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a
+					class="nav-link"
+					on:click={() => (open = false)}
+					href="#about">Sobre</a
+				>
+			</li>
 
-<nav
-	class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink "
-	id="mainNav">
-	<div class="container">
-		<a
-			class="navbar-brand logo-font"
-			href="#page-top">
-			Vinicius Portifólio
-		</a>
-
-		<button
-			class="text-gradient navbar-toggler logo-font navbar-toggler-right"
-			type="button">
-			Menu
-			<i class="fas fa-bars" />
-		</button>
-		<div
-			class="text-gradient collapse logo-font navbar-collapse show"
-			id="navbarResponsive">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-					<a
-						class=" logo-font nav-link"
-						href="#about">Sobre</a>
-				</li>
-				<li class="nav-item">
-					<a
-						class="logo-font nav-link"
-					
-						href="#projects">Projetos</a>
-				</li>
-				<li class="nav-item">
-					<a
-						class="logo-font nav-link "
-						
-						href="#features">Ferramentas</a>
-				</li>
-				<li class="nav-item">
-					<a
-						class="logo-font nav-link "
-						
-						href="#signup">Contatos</a>
-				</li>
-			</ul>
-		</div>
+			<li class="nav-item">
+				<a
+					class=" nav-link"
+					on:click={() => (open = false)}
+					href="#projects">Projetos</a
+				>
+			</li>
+			<li class="nav-item">
+				<a
+					class=" nav-link"
+					on:click={() => (open = false)}
+					href="#features">Ferramentas</a
+				>
+			</li>
+			<li class="nav-item">
+				<a
+					class=" nav-link"
+					on:click={() => (open = false)}
+					href="#signup">Contatos</a
+				>
+			</li>
+		</ul>
 	</div>
 </nav>
+
+<style>
+	a:hover {
+		color: var(--primary);
+	}
+</style>

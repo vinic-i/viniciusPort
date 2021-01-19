@@ -3971,7 +3971,7 @@ input[type=button].btn-block {
   margin-bottom: -1px;
 }
 .nav-tabs .nav-link {
-  border: 1px solid transparent;
+  border: 1px solid black;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
@@ -3980,8 +3980,8 @@ input[type=button].btn-block {
 }
 .nav-tabs .nav-link.disabled {
   color: #6c757d;
-  background-color: transparent;
-  border-color: transparent;
+  background-color: black;
+  border-color: black;
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
@@ -4030,7 +4030,7 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -4352,10 +4352,10 @@ input[type=button].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: black;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  color: black;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.5);
@@ -7475,13 +7475,13 @@ button.bg-black:focus {
   position: sticky !important;
 }
 
-/* .fixed-top {
+.fixed-top {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1030;
-} */
+}
 
 .fixed-bottom {
   position: fixed;
