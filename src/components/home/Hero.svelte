@@ -8,18 +8,18 @@
 <section class="hero">
     <div class="hero-image">
         <div class="container">
-            <div class="over">
+            <div data-aos="fade-down" data-aos-delay="100" class="over">
                 <div class="row">
-                    <div class="col-lg-6 col-sm-12 over-grid">
+                    <div data-aos="fade-right" data-aos-delay="300" class="col-lg-6 col-sm-12 over-grid">
                         <h1><span>{title}</span></h1>
                         <span class="des">{subTitle}</span>
                     </div>
-                    <div class="col-lg-6 col-sm-12">
+                    <div data-aos="fade-left" data-aos-delay="300" class="col-lg-6 col-sm-12">
                         <img src={img} alt="" />
                     </div>
                 </div>
             </div>
-            <div>
+            <div data-aos="fade-up" data-aos-delay="400">
                 <a class="hero-button" href="#about">Saiba mais</a>
             </div>
         </div>
