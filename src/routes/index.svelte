@@ -83,22 +83,29 @@
 		subTitle={sec4SubTitle}
 		showButton={true}
 		img="unity.png"
-			/> 
+	/>
 </section>
 <section id="features">
 	<LogoShowCase />
 </section>
+
 <style>
 	.containear {
 		display: grid;
 		align-content: center;
 		justify-content: center;
 		background-image: url("footer.png");
-		height: 60vh;
+		height: 80vh;
 	}
 	.about-text {
 		width: 600px;
 	}
+	@media only screen and (max-width: 600px) {
+		.about-text {
+		width: 400px;
+	}
+	}
+	
 	.containear p {
 		text-align: justify;
 		font-size: 25px;

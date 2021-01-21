@@ -4229,7 +4229,7 @@ input[type=button].btn-block {
     flex-basis: auto;
   }
   .navbar-expand-lg .navbar-toggler {
-    display: none;
+    background:black;
   }
 }
 @media (max-width: 1199.98px) {
@@ -4352,10 +4352,10 @@ input[type=button].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: black;
+  color: white;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: black;
+  color: white;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.5);
@@ -4383,7 +4383,7 @@ input[type=button].btn-block {
   color: rgba(255, 255, 255, 0.5);
 }
 .navbar-dark .navbar-text a {
-  color: #fff;
+  color: white;
 }
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
@@ -7476,7 +7476,7 @@ button.bg-black:focus {
 }
 
 .fixed-top {
-  position: fixed;
+  position: relative;
   top: 0;
   right: 0;
   left: 0;
