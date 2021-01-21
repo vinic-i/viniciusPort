@@ -162,7 +162,7 @@ sup {
 a {
   color: #64a19d;
   text-decoration: none;
-  background-color: transparent;
+  background-color: black;
 }
 a:hover {
   color: #467370;
@@ -4088,7 +4088,7 @@ input[type=button].btn-block {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: transparent;
+  background-color: black;
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
@@ -10139,7 +10139,7 @@ body {
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(#fff, 80%);
   outline: none;
-  background-color: transparent;
+  background-color: black;
 }
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
@@ -10150,7 +10150,7 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: black;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {

@@ -95,11 +95,6 @@
 </div>
 
 <style>
-    section {
-        display: grid;
-        align-items: center;
-        height: 700px;
-    }
     .text-position {
         display: grid;
         align-items: center;
