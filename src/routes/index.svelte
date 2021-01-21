@@ -1,17 +1,5 @@
 <script>
-	import {
-		Hero,
-		Reviews,
-		Smallhero,
-		Features,
-		Services,
-		Catalog,
-		SearchBox,
-		SelectService,
-		LogoShowCase,
-		OurProjects,
-		Section,
-	} from "../components";
+	import { Hero, LogoShowCase, Section } from "../components";
 	import { wpLink } from "../config";
 
 	let sec1Title = "Site de apresentação do centro de massagem Kiro Mass ";
@@ -52,39 +40,154 @@
 </section>
 
 <section id="projects">
-	<div class="my-5 text-center">
-		<h1>Projetos</h1>
+	<div class="container">
+		<div class="my-5 text-center">
+			<h1>Projetos</h1>
+		</div>
+		<!-- PRIMEIRA LINHA -->
+		<div class="row p-0 mb-5 mx-0">
+			<div class="text-size  col-lg-6 col-sm-12 col-md-12 p-0 m-0">
+				<h2 class="text-content">
+					<a
+						style="color:black"
+						href="https://kiromass.netlify.app/"
+						target="_blanck">{sec1Title}</a
+					>
+					<p style="font-size: 1.2rem">{sec1SubTitle}</p>
+					<div data-aos="fade-left" data-aos-delay="100">
+						<a
+							class="contato"
+							style="text-decoration:none "
+							target="_blank"
+							href={wpLink}
+							>Entre em contado
+							<i class="fab fa-whatsapp" /></a
+						>
+					</div>
+				</h2>
+			</div>
+			<div class="col-lg-6 col-sm-12 col-md-12 p-0 m-0">
+				<img src="img/kiroMass3.jpg" alt="Mula Preta Dashboard/Site" />
+			</div>
+		</div>
+		<!-- SEGUNDA LINHA -->
+		<div class="row p-0 mb-5 mx-0">
+			<div class="text-size  col-lg-6 col-sm-12 col-md-12 p-0 m-0">
+				<h2 class="text-content">
+					<a style="color:black" href="https://mulapreta.com/" target="_blanck"
+						>{sec2Title}</a
+					>
+					<p style="font-size: 1.2rem">{sec2SubTitle}</p>
+					<div data-aos="fade-left" data-aos-delay="100">
+						<a
+							class="contato"
+							style="text-decoration:none "
+							target="_blank"
+							href={wpLink}
+							>Entre em contado
+							<i class="fab fa-whatsapp" /></a
+						>
+					</div>
+				</h2>
+			</div>
+			<div class="col-lg-6 col-sm-12 col-md-12 p-0 m-0">
+				<img src="img/mulaPreta.png" alt="Mula Preta Dashboard/Site" />
+			</div>
+		</div>
+		<!-- TERCEIRA LINHA -->
+		<div class="row p-0 mb-5 mx-0">
+			<div class="text-size  col-lg-6 col-sm-12 col-md-12 p-0 m-0">
+				<h2 class="text-content">
+					<a
+						style="color:black"
+						href="https://portaldigitalmusic.netlify.app/"
+						target="_blanck">{sec3Title}</a
+					>
+					<p style="font-size: 1.2rem">{sec3SubTitle}</p>
+					<div data-aos="fade-left" data-aos-delay="100">
+						<a
+							class="contato"
+							style="text-decoration:none "
+							target="_blank"
+							href={wpLink}
+							>Entre em contado
+							<i class="fab fa-whatsapp" /></a
+						>
+					</div>
+				</h2>
+			</div>
+			<div class="col-lg-6 col-sm-12 col-md-12 p-0 m-0">
+				<img
+					src="DigitalMusic/LoginDM.png"
+					alt="Mula Preta Dashboard/Site"
+				/>
+			</div>
+		</div>
+		<!-- QUARTA LINHA -->
+		<div class="row p-0 mb-5 mx-0">
+			<div class="text-size  col-lg-6 col-sm-12 col-md-12 p-0 m-0">
+				<h2 class="text-content">
+					<a
+						style="color:black"
+						href="DigitalMusic/LoginDM.png"
+						target="_blanck">{sec4Title}</a
+					>
+					<p style="font-size: 1.2rem">{sec4SubTitle}</p>
+					<div data-aos="fade-left" data-aos-delay="100">
+						<a
+							class="contato"
+							style="text-decoration:none "
+							target="_blank"
+							href={wpLink}
+							>Entre em contado
+							<i class="fab fa-whatsapp" /></a
+						>
+					</div>
+				</h2>
+			</div>
+			<div class="col-lg-6 col-sm-12 col-md-12 p-0 m-0">
+				<img src="unity.png" alt="Mula Preta Dashboard/Site" />
+			</div>
+		</div>
 	</div>
-	<Section
-		title={sec1Title}
-		subTitle={sec1SubTitle}
-		showButton={true}
-		img="img/kiroMass3.jpg"
-		link="https://kiromass.netlify.app/"
-	/>
-	<Section
-		title={sec2Title}
-		subTitle={sec2SubTitle}
-		showButton={true}
-		img="img/mulaPreta.png"
-		link="https://mulapreta.com/"
-	/>
-
-	<Section
-		title={sec3Title}
-		subTitle={sec3SubTitle}
-		showButton={true}
-		img="DigitalMusic/LoginDM.png"
-		link="https://portaldigitalmusic.netlify.app/"
-	/>
-
-	<Section
-		title={sec4Title}
-		subTitle={sec4SubTitle}
-		showButton={true}
-		img="unity.png"
-	/>
 </section>
+
+<!-- <section id="projects">
+	<div class="container">
+		<div class="my-5 text-center">
+			<h1>Projetos</h1>
+		</div>
+		<Section
+			title={sec1Title}
+			subTitle={sec1SubTitle}
+			showButton={true}
+			img="img/kiroMass3.jpg"
+			link="https://kiromass.netlify.app/"
+		/>
+		<Section
+			title={sec2Title}
+			subTitle={sec2SubTitle}
+			showButton={true}
+			img="img/mulaPreta.png"
+			link="https://mulapreta.com/"
+		/>
+
+		<Section
+			title={sec3Title}
+			subTitle={sec3SubTitle}
+			showButton={true}
+			img="DigitalMusic/LoginDM.png"
+			link="https://portaldigitalmusic.netlify.app/"
+		/>
+
+		<Section
+			title={sec4Title}
+			subTitle={sec4SubTitle}
+			showButton={true}
+			img="unity.png"
+		/>
+	</div>
+</section> -->
 <section id="features">
 	<LogoShowCase />
 </section>
@@ -102,12 +205,28 @@
 	}
 	@media only screen and (max-width: 600px) {
 		.about-text {
-		width: 400px;
+			width: 400px;
+		}
 	}
-	}
-	
+
 	.containear p {
 		text-align: justify;
 		font-size: 25px;
+	}
+	img {
+		width: 100%;
+	}
+	.contato {
+		font-size: 1rem;
+		margin: 0;
+		padding: 0;
+	}
+	 .text-size {
+        display: grid;
+    align-items: center;
+
+	}
+	.text-content {
+		padding: 0 10px 0 10px;
 	}
 </style>

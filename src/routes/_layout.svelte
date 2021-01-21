@@ -3,7 +3,8 @@
 
 	export let segment;
 </script>
-<Nav {segment} /> 
+
+<Nav {segment} />
 
 <slot />
 
