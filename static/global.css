@@ -22,8 +22,14 @@ body {
   text-transform: uppercase;
 }
 .hero-image .container h1{
-  font-size: 3.5rem;
+  font-size: 2em;
   letter-spacing: 0.2em;
+}
+@media (min-widht:970px){
+  .hero-image .container h1{
+    font-size: 3.5em;
+    letter-spacing: 0.2em;
+  }
 }
 .over{
   border: 5px solid white;
@@ -94,7 +100,9 @@ position: relative; */
 
 
 
-
+img{
+  max-width: 100%;
+}
 
 
 

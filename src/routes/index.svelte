@@ -22,13 +22,12 @@
 
 <Hero />
 
-<section class="text-center" id="about">
-	<div class="containear text-center">
-		<div data-aos="fade-up" data-aos-delay="100" class="mb-5">
-			<h1>Sobre mim</h1>
-		</div>
-		<div data-aos="fade-up" data-aos-delay="100" class="about-text">
-			<p>
+<div class="container">
+	<section id="about" class="about-text text-center d-flex align-items-center">
+		<div class="">
+			<h1 class="mb-5" >SOBRE MIM</h1>
+
+			<p style="font-size: 1.2rem">
 				Olá, sou Vinicius, um estudante do 5º período de Ciências e
 				Tecnologia pela Universidade Federal do Rio Grande do Norte, fã
 				dos jogos e de tecnologia. Desde criança tenho muito interesse
@@ -36,25 +35,25 @@
 				computador e hoje trabalho nele programando sites e aplicações.
 			</p>
 		</div>
-	</div>
-</section>
+	</section>
 
-<section id="projects">
-	<div class="container">
-		<div data-aos="flip-left" data-aos-delay="100" class="my-5 text-center">
-			<h1>Projetos</h1>
+	<div id="projects">
+		<div class=" text-center">
+			<h1>PROJETOS</h1>
 		</div>
-		<!-- PRIMEIRA LINHA -->
-		<div class="row p-0 mb-5 mx-0">
-			<div data-aos="fade-left" data-aos-delay="100" class="text-size  col-lg-6 col-sm-12 col-md-12 p-0 m-0">
+		<section class="row">
+			<div
+				class="text-size d-flex align-items-center col-sm-12 col-md-12 col-lg-6  p-0 m-0"
+			>
 				<h2 class="text-content">
 					<a
+						
 						style="color:black"
 						href="https://kiromass.netlify.app/"
 						target="_blanck">{sec1Title}</a
 					>
-					<p style="font-size: 1.2rem">{sec1SubTitle}</p>
-					<div data-aos="fade-left" data-aos-delay="100">
+					<p class="my-3" style="font-size: 1.2rem">{sec1SubTitle}</p>
+					<div>
 						<a
 							class="contato"
 							style="text-decoration:none "
@@ -66,43 +65,53 @@
 					</div>
 				</h2>
 			</div>
-			<div data-aos="flip-left" data-aos-delay="100" class="col-lg-6 col-sm-12 col-md-12 p-0 m-0">
+			<div
+				class="d-flex align-items-center col-sm-12 col-md-12 col-lg-6  p-0 m-0"
+			>
 				<img src="img/kiroMass3.jpg" alt="Mula Preta Dashboard/Site" />
 			</div>
-		</div>
-		<!-- SEGUNDA LINHA -->
-		<div class="row p-0 mb-5 mx-0">
-			<div data-aos="fade-left" data-aos-delay="100" class="text-size  col-lg-6 col-sm-12 col-md-12 p-0 m-0">
-				<h2 class="text-content">
-					<a style="color:black" href="https://mulapreta.com/" target="_blanck"
-						>{sec2Title}</a
-					>
-					<p style="font-size: 1.2rem">{sec2SubTitle}</p>
-						<a
-							class="contato"
-							style="text-decoration:none "
-							target="_blank"
-							href={wpLink}
-							>Entre em contado
-							<i class="fab fa-whatsapp" /></a
-						>
-				</h2>
-			</div>
-			<div data-aos="flip-left" data-aos-delay="100" class="col-lg-6 col-sm-12 col-md-12 p-0 m-0">
-				<img src="img/mulaPreta.png" alt="Mula Preta Dashboard/Site" />
-			</div>
-		</div>
-		<!-- TERCEIRA LINHA -->
-		<div class="row p-0 mb-5 mx-0">
-			<div data-aos="fade-left" data-aos-delay="100" class="text-size  col-lg-6 col-sm-12 col-md-12 p-0 m-0">
+		</section>
+		<section class="row">
+			<div
+				class="text-size d-flex align-items-center col-sm-12 col-md-12 col-lg-6  p-0 m-0"
+			>
 				<h2 class="text-content">
 					<a
+					
+						style="color:black"
+						href="https://mulapreta.com/"
+						target="_blanck">{sec2Title}</a
+					>
+					<p class="mt-3" style="font-size: 1.2rem">{sec2SubTitle}</p>
+					<a
+						class="contato"
+						style="text-decoration:none "
+						target="_blank"
+						href={wpLink}
+						>Entre em contado
+						<i class="fab fa-whatsapp" /></a
+					>
+				</h2>
+			</div>
+			<div
+				class="col-sm-12 d-flex align-items-center col-md-12 col-lg-6  p-0 m-0"
+			>
+				<img src="img/mulaPreta.png" alt="Mula Preta Dashboard/Site" />
+			</div>
+		</section>
+		<section class="row p-0 mb-5 mx-0">
+			<div
+				class="text-size d-flex align-items-center col-sm-12 col-md-12 col-lg-6  p-0 m-0"
+			>
+				<h2 class="text-content">
+					<a
+					
 						style="color:black"
 						href="https://portaldigitalmusic.netlify.app/"
 						target="_blanck">{sec3Title}</a
 					>
-					<p style="font-size: 1.2rem">{sec3SubTitle}</p>
-					<div data-aos="fade-left" data-aos-delay="100">
+					<p class="mt-3" style="font-size: 1.2rem">{sec3SubTitle}</p>
+					<div>
 						<a
 							class="contato"
 							style="text-decoration:none "
@@ -114,24 +123,28 @@
 					</div>
 				</h2>
 			</div>
-			<div data-aos="flip-left" data-aos-delay="100" class="col-lg-6 col-sm-12 col-md-12 p-0 m-0">
+			<div
+				class="d-flex align-items-center col-sm-12 col-md-12 col-lg-6 d-flex align-items-center p-0 m-0"
+			>
 				<img
 					src="DigitalMusic/LoginDM.png"
 					alt="Mula Preta Dashboard/Site"
 				/>
 			</div>
-		</div>
-		<!-- QUARTA LINHA -->
-		<div class="row p-0 mb-5 mx-0">
-			<div data-aos="fade-left" data-aos-delay="100" class="text-size  col-lg-6 col-sm-12 col-md-12 p-0 m-0">
+		</section>
+		<section class="row">
+			<div
+				class="text-size d-flex align-items-center col-sm-12 col-md-12 col-lg-6  p-0 m-0"
+			>
 				<h2 class="text-content">
 					<a
+					
 						style="color:black"
 						href="DigitalMusic/LoginDM.png"
 						target="_blanck">{sec4Title}</a
 					>
-					<p style="font-size: 1.2rem">{sec4SubTitle}</p>
-					<div data-aos="fade-left" data-aos-delay="100">
+					<p class="mt-3" style="font-size: 1.2rem">{sec4SubTitle}</p>
+					<div>
 						<a
 							class="contato"
 							style="text-decoration:none "
@@ -143,14 +156,15 @@
 					</div>
 				</h2>
 			</div>
-			<div data-aos="flip-left" data-aos-delay="100" class="col-lg-6 col-sm-12 col-md-12 p-0 m-0">
+			<div
+				class="d-flex align-items-center col-sm-12 col-md-12 col-lg-6  p-0 m-0"
+			>
 				<img src="unity.png" alt="Mula Preta Dashboard/Site" />
 			</div>
-		</div>
+		</section>
 	</div>
-</section>
 
-<!-- <section id="projects">
+	<!-- <section id="projects">
 	<div class="container">
 		<div class="my-5 text-center">
 			<h1>Projetos</h1>
@@ -186,31 +200,16 @@
 		/>
 	</div>
 </section> -->
+</div>
 <section id="features">
 	<LogoShowCase />
 </section>
 
 <style>
-	.containear {
-		display: grid;
-		align-content: center;
-		justify-content: center;
-		background-image: url("footer.png");
-		height: 80vh;
-	}
-	.about-text {
-		width: 600px;
-	}
-	@media only screen and (max-width: 600px) {
-		.about-text {
-			width: 400px;
-		}
+	section {
+		min-height: 80vh;
 	}
 
-	.containear p {
-		text-align: justify;
-		font-size: 25px;
-	}
 	img {
 		width: 100%;
 	}
@@ -219,12 +218,15 @@
 		margin: 0;
 		padding: 0;
 	}
-	 .text-size {
-        display: grid;
-    align-items: center;
 
-	}
 	.text-content {
 		padding: 0 10px 0 10px;
+	}
+
+	@media (min-width: 600px) {
+		.about-text {
+			max-width: 50em;
+			margin: auto;
+		}
 	}
 </style>
